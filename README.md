@@ -13,3 +13,6 @@ Some advantages of VISIT-STIS-Coron:
 Acknowledgements:
 1. I thank John H. Debes for allowing me making the mask file he created in Debes et al. ([2017](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..205D/abstract)) public. If you use that FITS file in your research, please cite  Debes et al. ([2017](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..205D/abstract)).
 2. I thank Kimberly Ward-Duong for developing [STIS Coronagraphic Visualization Tool (Preliminary Release)](https://www.stsci.edu/hst/instrumentation/stis/data-analysis-and-software-tools) which I used to verify the parameter setup for VISIT-STIS-Coron.
+
+To be done:
+Overall representation/choice of colormap, markers, etc.
