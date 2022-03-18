@@ -113,7 +113,7 @@ def occultedMask(image, occulting_location, halfSize = None, halfSizeX = None, h
     image[np.isnan(image)] = 0 #in case there are nan values
     
     if diffraction_spike is not None:
-        image *= makeDiffractionSpikes(1024, hw_spikes = 5, cen_x = x_cen, cen_y = y_cen) #mask out diffraction spikes region
+        image *= makeDiffractionSpikes(1024, hw_spikes = diffraction_spike, cen_x = x_cen, cen_y = y_cen) #mask out diffraction spikes region
     
     image_interp = interp2d(np.arange(image.shape[1]), np.arange(image.shape[0]), image, kind = 'cubic', fill_value = 0)
 
