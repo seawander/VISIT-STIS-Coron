@@ -1,5 +1,7 @@
 # VISIT-STIS-Coron
-VISIbility Tool for HST/STIS Coronagraph (VISIT-STIS-Coron), version 0.1. Developed by Bin Ren (Caltech) as a Phase II preparation tool for HST/STIS coronagraph.
+VISIbility Tool for HST/STIS Coronagraph (VISIT-STIS-Coron), version 0.1. Developed by Bin Ren (Caltech) as a Phase II preparation tool for HST/STIS coronagraph. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7404928.svg)](https://doi.org/10.5281/zenodo.7404928)
+
+
 
 **TLDR**: Check out [VISIT-STIS-Coron Demo.ipynb](https://github.com/seawander/VISIT-STIS-Coron/blob/main/VISIT-STIS-Coron%20Demo.ipynb) for usage demo.
 
@@ -16,3 +18,16 @@ Acknowledgements:
 
 To be done:
 Overall representation/choice of colormap, markers, etc.
+
+```
+@software{bin_ren_2022_7404928,
+  author       = {Bin Ren},
+  title        = {seawander/VISIT-STIS-Coron: First Release},
+  month        = dec,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.7404928},
+  url          = {https://doi.org/10.5281/zenodo.7404928}
+}
+```
